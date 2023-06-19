@@ -638,7 +638,7 @@ button:focus {
     }
     .details-title-container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
@@ -660,6 +660,11 @@ button:focus {
         align-items: center;
         width: 100%; 
         padding-top: 3rem;
+    }
+    .map-text{
+        color: #AE7639;
+        font-weight: 400;
+        font-size: 1.5rem;
     }
 }
 
@@ -696,6 +701,11 @@ button:focus {
         width: 100%; 
         padding-top: 7rem;
     }
+    .map-text{
+        color: #AE7639;
+        font-weight: 400;
+        font-size: 1.75rem;
+    }
 }
 
 @media (min-width: 1001px){
@@ -731,11 +741,13 @@ button:focus {
         width: 100%; 
         padding-top: 12rem;
     }
-    
+    .map-text{
+        color: #AE7639;
+        font-weight: 400;
+        font-size: 1.75rem;
+    }
 }
-.map-text{
-    color: #AE7639;
-}
+
 /*#endregion */
 
 
