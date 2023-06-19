@@ -1,2 +1,0 @@
-# K-MGetMarried
- Wedding Website
