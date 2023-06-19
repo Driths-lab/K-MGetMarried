@@ -731,6 +731,10 @@ button:focus {
         width: 100%; 
         padding-top: 12rem;
     }
+    
+}
+.map-text{
+    color: #AE7639;
 }
 /*#endregion */
 
