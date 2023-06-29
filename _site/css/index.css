@@ -151,7 +151,42 @@ header {
     align-items: center;
 }
 
+.date-text-1{
+    display: none;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.date-text-0{
+    display: block;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.date-text{
+    flex-grow: 1;
+    width: 100%;
+}
+
 @media (min-width: 0px) {
+    .date-text-1{
+        display: block;
+        flex-grow: 2;
+        width: 100%;
+    }
+    
+    .date-text-0{
+        display: none;
+        flex-grow: 2;
+        width: 100%;
+    }
+
+    .date-text{
+        flex-grow: 1;
+        width: 100%;
+        text-align: center;
+    }
+
     .content{
         display: flex;
         flex-direction: column;
@@ -187,6 +222,21 @@ header {
 }
 
 @media (min-width: 500px) {
+    .date-text-1{
+        display: none;
+        flex-grow: 2;
+        width: 100%;
+    }
+    .date-text-0{
+        display: block;
+        text-align: right;
+    }
+
+    .date-text{
+        flex-grow: 1;
+        width: 100%;
+        text-align: left;
+    }
     .center-text-1{
         font-weight: 500;
         font-size: calc(0.5rem + 1vw);
@@ -290,7 +340,10 @@ header {
         outline-width: 0;
         font-size: 0.75rem;
     }
-    
+    .form-data-holder{
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
     .form-data-holder > label {
         font-size: 0.75rem;
     }
@@ -694,6 +747,8 @@ button:focus {
         font-weight: 400;
         font-size: 0.75rem;
         padding-bottom: 0.5rem;
+        width: 100%;
+        text-align: center;
     }
     .details-image-container{
         display: flex;
@@ -964,8 +1019,8 @@ button:focus {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center; 
-        padding-top: 12rem;
-        padding-bottom: 12rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         width: 100%;
         background-color: #F6F6F0;
     }
@@ -1092,8 +1147,8 @@ button:focus {
         justify-content: space-evenly;
         align-items: baseline; 
         padding: 1rem;
-        padding-top: 12rem;
-        padding-bottom: 12rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         width: 100%;
     }
     .faq-title-container{
@@ -1140,7 +1195,7 @@ button:focus {
     .question{
         font-weight: 400;
         font-size: 1rem;
-        line-height: 120%;
+        line-height: 140%;
     }
 }
 
@@ -1200,7 +1255,7 @@ button:focus {
     .question{
         font-weight: 400;
         font-size: 1.3rem;
-        line-height: 120%;
+        line-height: 140%;
     }
 }
 
